@@ -1,31 +1,3 @@
-/*import java.util.Scanner;
-
-public class ControleSimplesDeSaques {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); 
-
-        double limiteDiario = scanner.nextDouble();
-
-        for (int i = 1; i <= limiteDiario; i++){
-          double valorSaque = scanner.nextDouble();   
-          
-          if (valorSaque == 0) {
-            break;
-          }
-
-          if (limiteDiario >= valorSaque) {
-            limiteDiario -= valorSaque;
-            System.out.println("Saque realizado. Limite restante: " + limiteDiario);
-          } else {
-            System.out.println("Limite diario de saque atingido. Transacoes encerradas.");
-            return;
-          }
-        }
-        scanner.close(); 
-    }
-}
-*/
 import java.util.Scanner;
 
 public class ControleSimplesDeSaques {
@@ -41,20 +13,21 @@ public class ControleSimplesDeSaques {
 
             if (saque == 0) {
                 System.out.println("Transacoes encerradas.");
+                scanner.close();
                 return;
-            }else {
+            } else {
 
                 if (saque <= limiteDiario) {
                     limiteDiario -= saque;
                     System.out.println("Saque realizado. Limite restante: " + String.format("%.1f", limiteDiario));
                 } else {
 
-  
                     System.out.println("Limite diario de saque atingido. Transacoes encerradas.");
+                    scanner.close();
                     return;
                 }
-            }
-        }
+            } 
+        }  
 
         scanner.close();
     }
