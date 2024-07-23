@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyFirstWebApiApplication",
+            "request": "launch",
+            "mainClass": "dio.web.api.MyFirstWebApiApplication",
+            "projectName": "my-first-web-api"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
