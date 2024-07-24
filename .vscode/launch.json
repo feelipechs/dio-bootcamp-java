@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DioSpringSecurityApplication",
+            "request": "launch",
+            "mainClass": "dio.spring.security.DioSpringSecurityApplication",
+            "projectName": "dio-spring-security"
+        },
+        {
+            "type": "java",
             "name": "MyFirstWebApiApplication",
             "request": "launch",
             "mainClass": "dio.web.api.MyFirstWebApiApplication",

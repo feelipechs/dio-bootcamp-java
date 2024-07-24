@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.sourcePaths": [
+        "dio-java-poo/src/collections/map/ordenacao",
+        "dio-java-poo",
+        "dio-java-basico/sistema-smart-tv/src",
+        "desafios-de-projeto/desafio-dio-POO/src",
+        "dio-springboot/dio-spring-security/src/main/java/dio/spring/security"
+    ]
+}
