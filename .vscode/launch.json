@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "me.dio.Application",
+            "projectName": "santander-dev-week-2023-dio-santander-bootcamp-java"
+        },
+        {
+            "type": "java",
             "name": "DioSpringSecurityApplication",
             "request": "launch",
             "mainClass": "dio.spring.security.DioSpringSecurityApplication",
