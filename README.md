@@ -1,2 +1,1 @@
-# dio-bootcamp-java
-Bootcamp Backend com Java | Santander + DIO.
+# Repositório para o curso Backend com Java | DIO + Santander
